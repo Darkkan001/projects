@@ -1,3 +1,4 @@
+/* TODO: Все инпуты сделаны не по БЭМ */
 .input-wrapper {
     position: relative;
     width: 300px;
@@ -5,9 +6,9 @@
 .input-wrapper::after {
     content: " ";
     position: absolute;
-    background-image: url(../image/input-first/user.png); 
+    background-image: url(../image/input-first/user.png);
     left: 12px;
-    width: 20px; 
+    width: 20px;
     height: 20px;
     top: calc(50% - (20px / 2));
 }
@@ -21,8 +22,9 @@
     height: 45px;
     color: #FFFFFF;
 }
-::-webkit-input-placeholder { 
+::-webkit-input-placeholder {
     color: white;
+/* TODO: Нужно указывать еще дополнительный ширфт, в случае если не вгрузится Montserrat */
     font-family: Montserrat;
  }
  .input-password {
@@ -33,9 +35,9 @@
  .input-password::after {
     content: " ";
     position: absolute;
-    background-image: url(../image/input-first/lock.png); 
+    background-image: url(../image/input-first/lock.png);
     left: 12px;
-    width: 20px; 
+    width: 20px;
     height: 20px;
     top: calc(50% - (20px / 2));
  }

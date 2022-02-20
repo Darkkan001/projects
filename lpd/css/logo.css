@@ -1,6 +1,7 @@
+/* TODO: Можно было сделать с помощью flexbox и было бы меньше строк кода. */
 .main__logo {
-    padding-top: 162px; 
-    margin-bottom: 92px; 
+    padding-top: 162px;
+    margin-bottom: 92px;
 }
 .logo__image {
     display: block;

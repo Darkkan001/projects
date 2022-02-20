@@ -4,35 +4,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+<!-- TODO: reset.css должен быть первым - иначе он может перебивать данные с main.css -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/logo.css">
     <link rel="stylesheet" href="css/inputs.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet"/>
+<!--    TODO: Нужны все meta tags, хотя бы пустые, которые отвечают за SEO -->
     <title>lpd</title>
 </head>
 <body>
     <main class="main">
+        <!-- TODO: main нужен id и уникальный class для секции. Допустим class="auth" id="auth_page" -->
         <section class="container">
+<!--            TODO: Не вижу смысла в div.main__logo -->
             <div class="main__logo">
+<!--                 TODO: Наименования не по БЭМ   -->
                 <img
                     src="image/logo/logo.svg"
                     alt="Логотип"
                     class="logo__image"
                 >
             </div>
+<!--                 TODO: Нет класса на форме  -->
             <form action="#" method="get">
                 <div class="input-wrapper">
-                    <input class="input-first" placeholder="USERNAME" name="username" type="text">                  
+<!--                 TODO: У каждого input должен быть label -->
+<!--                 TODO: Наименования не по БЭМ   -->
+                    <input class="input-first" placeholder="USERNAME" name="username" type="text">
                 </div>
                 <div class="input-password">
-                    <input class="input-second" placeholder="PASSWORD" name="password" type="password">  
+<!--                 TODO: У каждого input должен быть label -->
+<!--                 TODO: Наименования не по БЭМ   -->
+                    <input class="input-second" placeholder="PASSWORD" name="password" type="password">
                 </div>
                 <div class="input-button">
                     <button class="input-third" name="login" type="submit">LOGIN</button>
                 </div>
             </form>
             <div class="main__text">
-            <a href="#" class="text">Forgot password?</a> 
+            <a href="#" class="text">Forgot password?</a>
         </section>
     </main>
 </body>
