@@ -6,10 +6,16 @@
     padding-top: 162px;
     margin-bottom: 92px;
 }*/
-.main_auth-logo {
+/*.main_auth-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 162px;
+    margin-bottom: 92px;
+}*/
+.main_auth-logo {
+    display: flex;
+    justify-content: center;    /*Но хотя да, на целую строчку меньше)))))*/
     padding-top: 162px;
     margin-bottom: 92px;
 }
