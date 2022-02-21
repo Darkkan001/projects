@@ -1,10 +1,15 @@
 /* TODO: Можно было сделать с помощью flexbox и было бы меньше строк кода. */
-.main__logo {
+/*.main_logo {
+    display: block;
+    margin-left: auto;          либо я не правильно написал, но если правильно, то разницы по количеству строк не вижу)) 
+    margin-right: auto
     padding-top: 162px;
     margin-bottom: 92px;
-}
-.logo__image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+}*/
+.main_auth-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 162px;
+    margin-bottom: 92px;
 }
