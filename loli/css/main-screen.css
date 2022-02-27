@@ -1,0 +1,51 @@
+.main-screen__image-bigellipse {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main-screen__image-littleellipse {
+    position: absolute;
+    right: 452px;
+}
+.main-screen__image-leftelipse{
+    position: absolute;
+    left: 0;
+    top: 356px;
+    z-index: 1;
+}
+.main-screen__image-dog {
+    position: absolute;
+    right: 0;
+    top: 127px;
+    z-index: 2;
+}
+.main-screen__image-bigcat {
+    position: absolute;
+    right: 368px;
+    top: 290px;
+    z-index: 1;
+}
+.main-screen__image-littlecat {
+    position: absolute;
+    left: 0;
+    top: 413px;
+    z-index: 2;
+}
+.main-screen-row {
+    padding-top: 200px;
+}
+.main-screen__title {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 127%;
+    color: #212121;
+}
+.main-screen-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #212121;
+}

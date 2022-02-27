@@ -1,8 +1,8 @@
-.input__wrapper {
+.main__auth_input-wrapper {
     position: relative;
     width: 300px;
 }
-.input__wrapper::after {
+.main__auth_input-wrapper::after {
     content: " ";
     position: absolute;
     background-image: url(../image/input-first/user.png);
@@ -49,7 +49,7 @@
     height: 45px;
     color: #FFFFFF;
  }
- .input__button {
+ .main_auth_input-button {
     position: relative;
     width: 300px;
     margin-top: 43px;
@@ -68,18 +68,4 @@
  }
 .input__third:hover {
     box-shadow: none;
- }
- .main__text {
-     display: flex;
-     width: 100%;
-     align-items: flex-end;
-     margin-top: 11px;
- }
-.text {
-    width: 100%;
-    text-align: right;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #FFFFFF;
  }
