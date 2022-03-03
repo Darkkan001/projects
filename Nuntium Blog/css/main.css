@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    max-width: 1316px;
+    padding: 0 0px;
+    margin: 0 auto; 
+    box-sizing: border-box;
+}
+.container-fluid {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;   
+}
+.mobile {
+    display: none;
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width: 718px;
+    }
+    .mobile {
+        display: block;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+}

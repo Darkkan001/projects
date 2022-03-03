@@ -1,0 +1,108 @@
+.author-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.author-screen__container {
+    max-width: 655px;
+    margin-top: 72px;
+}
+.author-screen__abouttheauthor {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(28, 28, 28, 0.5);
+}
+.author-screen__wrapper {
+    display: flex;
+}
+.wrapper__image {
+    height: 160px;
+    margin-top: 15px;
+    margin-right: 37px;
+}
+.wrapper__union {
+    margin-top: 15px;
+}
+.union__title {
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 41px;
+    color: #1C1C1C;
+}
+.union__author {
+    padding-bottom: 13px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(28, 28, 28, 0.5);
+}
+.union__descriprion {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C1C1C;
+}
+@media (max-width: 1024px) {
+    .author-screen__container{
+        margin-top: 24px;
+    }
+    .author-screen__abouttheauthor {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .wrapper__image {
+        margin-top: 25px;
+        margin-right: 15px;
+    }
+    .union__title {
+        margin-top: 12px;
+        padding-bottom: 8px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .union__author {
+        display: none;
+    }
+    .union__descriprion {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+@media (max-width: 320px) {
+    .author-screen__container {
+        max-width: 270px;
+    }
+    .author-screen__abouttheauthor {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .author-screen__wrapper {
+        text-align: center;
+    }
+    .wrapper__image {
+        margin-top: 28px;
+        width: 82px;
+        height: 82px;
+    }
+    .union__title  {
+        margin-top: 42px;
+        padding-bottom: 0;
+    }
+    .union__author {
+        display: none;
+    }
+    .union__descriprion  {
+        margin-top: 54px;
+        margin-left: -98px;
+        margin-bottom: 30px;
+    }
+}
